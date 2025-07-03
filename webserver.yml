@@ -5,4 +5,4 @@
   - name: install web server
     apt:
      name: apache2
-     state: started
+     state: present
