@@ -1,0 +1,6 @@
+---
+- name: Grant tomcat Ownership to  /opt/tomcat/
+  command: sudo chown -R tomcat:tomcat /opt/tomcat/
+
+- name: Grnat tomcat owner ship to /bin/false
+  command: sudo chmod -R u+x /opt/tomcat/bin  
