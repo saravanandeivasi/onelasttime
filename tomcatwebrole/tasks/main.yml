@@ -1,7 +1,0 @@
----
-# tasks file for tomcatwebrole
-- include_tasks: user.yml
-- include_tasks: InstallJava.yml
-- include_tasks: tomcatdownload.yml
-- include_tasks: permissions.yml
-
